@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.collapse navbar-collapse {
+
+    margin: 30px;
+}
+
+.photo {
+    display:block;
+    margin:auto;
+    border-radius: 80px;
+}
+
+.col-lg-6 {
+    background-color: seashell;
+    opacity: 1;
+}
+
+
+p {
+    text-align: justify;
+}
+
+.pt-2 bg-success {
+    background-color: seashell;
+}
+
+body {
+    background-image: url(https://cdn.uconnectlabs.com/wp-content/uploads/sites/5/2017/12/20170301155447.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portfolio {
+    border: rgb(179, 232, 245);
+    border-style: solid;
+
+}
+
+@media (max-width: 500px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+
+  img {
+      text-align: center;
+      display: block;
+      padding-left: 30%;
+      margin-left: 30%;
+  }
+  
+  #navbar2 {
+      display: flex;
+      flex-direction: row;
+      margin-right: 100%;
+  }
+}
