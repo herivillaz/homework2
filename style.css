@@ -46,6 +46,7 @@ body {
 .portfolio {
     border: rgb(179, 232, 245);
     border-style: solid;
+    text-align: center;
 
 }
 
@@ -57,8 +58,11 @@ form {
 @media (max-width: 500px) {
 
     body {
-        padding: 0;
-        margin: 0;
+        padding: 30px;
+        margin: 30px;
+        background-image: url(https://cdn.uconnectlabs.com/wp-content/uploads/sites/5/2017/12/20170301155447.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
     }
     h1 {
       font-size: 36px;
@@ -81,4 +85,14 @@ form {
       flex-direction: row;
       margin-right: 100%;
   }
+
+  .portfolio {
+    border: rgb(179, 232, 245);
+    display: block;
+    border-style: solid;
+    text-align: center;
+    margin: 30%;
+    padding: 30%;
+
+}
 }
