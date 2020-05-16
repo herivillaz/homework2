@@ -47,6 +47,7 @@ body {
     border: rgb(179, 232, 245);
     border-style: solid;
     text-align: center;
+    display: block;
 
 }
 
@@ -76,15 +77,11 @@ form {
   img {
       text-align: center;
       display: block;
-      padding-left: 30%;
-      margin-left: 30%;
+      padding-left: 80%;
+      margin-left: 80%;
   }
   
-  #navbar2 {
-      display: flex;
-      flex-direction: row;
-      margin-right: 100%;
-  }
+ 
 
   .portfolio {
     border: rgb(179, 232, 245);
@@ -96,3 +93,61 @@ form {
 
 }
 }
+
+@media (max-width: 800px) {
+
+    body {
+        padding: 30px;
+        margin: 30px;
+        background-image: url(https://cdn.uconnectlabs.com/wp-content/uploads/sites/5/2017/12/20170301155447.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+
+  
+ .portfolio {
+     text-align: center;
+     margin: auto;
+ }
+
+
+
+}
+
+@media (max-width: 1000px) {
+
+    body {
+        padding: 20px;
+        margin: 20px;
+        background-image: url(https://cdn.uconnectlabs.com/wp-content/uploads/sites/5/2017/12/20170301155447.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+
+  
+ .portfolio {
+     text-align: center;
+     margin: auto;
+ }
+
+
+
+}
+
+

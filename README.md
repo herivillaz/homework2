@@ -33,8 +33,14 @@ Welcome to my first Portfolio.
 * It's integrated by a form composed of Name, email, message and of course a submit button to send this information. 
 
 * Every page also has a footer. Describing created for ... and a model of copyright.
+
 ![Footer](/assetsREADME/1589583396654.png)
 
-* Hope you like my project. I would appreciate your feedback to make this better.
+* On an `xs` screen, content takes up the entire screen. Also in `sm` screens and larger screens there are implemented margins. Taking in consideration that also the Navigation bar adjusts to the screen.
+
+![Small Windows](/assetsREADME/1589654684155.png)
+![Md Windows](/assetsREADME/1589655038421.png)
+
+* Hope you like my project. I would appreciate your feedback to make this better. Thank You.
 
 ## ** Best, Heribert Villazana**
